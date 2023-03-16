@@ -1,0 +1,129 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+body {
+  background-color: azure;
+}
+
+nav {
+  width: 100vw;
+  height: 5vh;
+  border: solid blue 1px;
+}
+
+content {
+  display: flex;
+  padding: 1%;
+  width: 100vw;
+  height: 75vh;
+  gap: 15px;
+  flex-wrap: wrap;
+  border: solid red 1px;
+}
+
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width: 170px;
+  height: 250px;
+  padding-left: 5px;
+  border: solid black 1px;
+  border-radius: 5px;
+}
+
+.card > .author {
+  padding-top: 5px;
+  font-style: italic;
+}
+
+.card > .title {
+  font-size: 1.5em;
+  color: darkslategray;
+}
+
+.card > .total-pages {
+  font-style: italic;
+}
+
+.card > .current-page {
+  font-style: italic;
+}
+
+.card > #card-button-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  border: solid red 2px;
+  user-select: none;
+}
+.card > #card-button-wrapper > .is-read-button {
+  background-color: red;
+}
+
+.card > #card-button-wrapper > .is-read-button-true {
+  background-color: green;
+}
+
+.card > #card-button-wrapper > .remove-button {
+  border: solid black 1px;
+  border-radius: 5px;
+}
+
+.new-book-html-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  user-select: none;
+}
+
+.new-book-html-card:hover {
+  color: blue;
+}
+
+.form-wrapper {
+  display: flex;
+  width: 100vw;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+  border: solid red 1px;
+}
+
+.form {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 1%;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  border: solid red 1px;
+}
+
+#submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 25px;
+  border: solid black 1.5px;
+  border-radius: 5px;
+}
+
+#submit-button:hover {
+  background-color: rgb(171, 255, 255);
+}
+
+footer {
+  width: 100vw;
+  height: 5vh;
+  border: solid pink 1px;
+}
